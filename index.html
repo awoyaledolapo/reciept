@@ -4,41 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <main class="container">
         <div class="header">
-            <span>Reciept</span>
+            <span class="logo-name">Receipt</span>
             <span class="logo"><img src="" alt="logo-img"></span>
         </div>
 
         <div class="mon-transfer">
-            <span>YOU TRANSFERRED</span>
+            <span class="trans">YOU TRANSFERRED</span>
             <span class="amount">£100.00</span>
         </div>
         <div class="details-section">
-            <h4>Recipient Details</h4>
-            <div class="details"><span>Account Number:</span> 1444568217</div>
-            <div class="details"><span>Account Name:</span> Yakub Sadiq</div>
-            <div class="details"><span>Bank Name:</span> OPAY</div>
-            <div class="details"><span>Transaction Fees:</span> $0.00</div>
+            <p>Recipient Details</p>
+            <div class="details"><span>Account Number</span> <b>1444568217</b></div>
+            <div class="details"><span>Account Name</span> <b>Yakub Sadiq</b></div>
+            <div class="details"><span>Bank Name</span><b> OPAY</b></div>
+            <div class="details"><span>Transaction Fees</span><b> $0.00</b></div>
         </div>
     
         <div class="details-section">
-            <h4>Transaction Details</h4>
-            <div class="details"><span>Date:</span> 08-03-2025</div>
-            <div class="details"><span>Status:</span> Successful</div>
-            <div class="details"><span>Reference:</span> RF7387tvhjvdkv4r33ur1000</div>
+            <p>Transaction Details</p>
+            <div class="details"><span>Date</span> <b> 08-03-2025</b></div>
+            <div class="details"><span>Status</span> <b style="color: rgb(22, 158, 90);">Successful</b></div>
+            <div class="details"><span>Reference</span> <b>RF7387tvhjvdkv4r33ur1000</b></div>
         </div>
         <div class="buttons">
-            <button class="btn btn-1 ">Repeat Transfer</button>
-            <button class="btn ">Share Receipt</button>
-            <button class="btn ">Download Receipt</button>
+            <button class="btn btn-1 ">Repeat Transfer <ion-icon name="paper-plane-outline" class="icon"></ion-icon> </button>
+            <button class="btn "><ion-icon class="" name="share-social-outline"></ion-icon>Share Receipt</button>
+            <button class="btn "><ion-icon class="icons" name="download-outline"></ion-icon>Download Receipt</button>
         </div>
 
 
     </main>
-    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
