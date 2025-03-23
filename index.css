@@ -93,7 +93,7 @@ body {
     border-radius: 8px;
     cursor: pointer;
     border:solid 2px #cfefe1 ;
-   
+    color: black;
 }
 .btn-1{
     background: rgb(22, 158, 90);
